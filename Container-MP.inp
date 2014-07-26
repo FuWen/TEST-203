@@ -1,0 +1,30 @@
+AllowReplace
+!
+!
+!
+!==============================================================================
+!                               Material Properties
+!==============================================================================
+MP_INPUT 
+!
+!
+MP_ID  		ZIRCALOY               ! default
+MP_ID  		ZIRCONIUM-OXIDE        ! default
+MP_ID  		URANIUM-DIOXIDE        ! default
+MP_ID  		STAINLESS-STEEL        ! default
+MP_ID  		STAINLESS-STEEL-OXIDE  ! default
+MP_ID  		BORON-CARBIDE          ! default
+MP_ID  		SILVER-INDIUM-CADMIUM  ! default
+MP_ID  		URANIUM-METAL          ! default
+MP_ID  		CONCRETE               ! default
+MP_ID  		ALUMINUM               ! default
+MP_ID  		ALUMINUM-OXIDE         ! default
+MP_ID  		CADMIUM                ! default
+MP_ID  		STAINLESS-STEEL-304    ! default
+MP_ID  		LITHIUM-ALUMINUM       ! default
+MP_ID  		URANIUM-ALUMINUM       ! default
+MP_ID  		CARBON-STEEL           ! default
+MP_ID  		B4C-INT                ! default
+MP_ID  		ZRO2-INT               ! default
+MP_ID  		UO2-INT                ! default
+!
