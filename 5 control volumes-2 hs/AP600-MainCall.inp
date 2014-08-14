@@ -71,11 +71,11 @@ Program MELCOR
 EXEC_INPUT
 	EXEC_TITLE	'AP600'
 	EXEC_JOBID	'AP600'
-	EXEC_TEND	10.0E3	! End of calculation time
+	EXEC_TEND	20.0E3	! End of calculation time
 	EXEC_TIME	3 !	Times		dt_Max	dt_Min		dt_WriteEdit	dt_WritePlot	dt_WriteRestart		dCPUt_WriteRestart
 				   1	 0.0E0	  1.0E6	  1.0E-6		100.0			10.0			10.0				10.0E9
 				   2	 5.0E3    1.0E6	  1.0E-6		100.0			10.0			10.0				10.0E9
-				   3	 10.0E3	  1.0E6	  1.0E-6		100.0			100.0			100.0				10.0E9
+				   3	 20.0E3	  1.0E6	  1.0E-6		100.0			10.0			10.0				10.0E9
 	EXEC_CPULEFT	50.0E0 ! CPU time left at end of calculation [s]
 	EXEC_CPULIM		10.0E9 ! Maximum number of CPU seconds allowed for this execution
 
