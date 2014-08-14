@@ -1,0 +1,39 @@
+HS_INPUT
+! =========================================================================== !
+!                        Heat Structure Definitions                           !
+! =========================================================================== !
+
+!==================  Heat Structure 1208  ==================
+HS_ID   'Rightside'  1208
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  1.5284E+00       1.00
+HS_ND   3
+        1   1   0.0         306.00   ALUMINUM 
+        2   2   1.524E-02   305.00   ALUMINUM 
+        3   3   3.81E-02    300.93    ALUMINUM  
+HS_LB   CalcCoefHS                        'Vol208'    YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'             NO  
+HS_LBP  EXT         0.5             0.5
+HS_RBP  EXT         0.5             0.5
+HS_LBS  2.7432E-001     0.9         0.9
+HS_RBS  2.7432E-001     0.9         0.9
+HS_FT   Off
+
+!==================  Heat Structure 1308  ==================
+HS_ID   'Upperside'  1308
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  2.4384E+00       0.0
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    300.93    ALUMINUM      
+HS_LB   CalcCoefHS                        'Vol208'     YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'              NO  
+HS_LBP  EXT          0.5             0.5 
+HS_RBP  EXT          0.5             0.5 
+HS_LBS  2.7432E-001     0.9         0.9
+HS_RBS  2.7432E-001     0.9         0.9
+HS_FT   Off
+

@@ -1,0 +1,77 @@
+AllowReplace
+
+FL_INPUT
+
+FL_ID   'From130to202'  131                           
+FL_FT   'Injection steam'    'Vol202'   0.0E+00  0.0E+00  
+FL_GEO  +5.07E-04  +1.27E-02  +1.00           
+FL_USL  0.00  0.00                                    
+FL_VEL  0.45  0.00                                    
+FL_JSW  1 NoBubbleRise  NoBubbleRise                  
+FL_SEG  1                                             
+        1  +5.07E-04  +1.27E-02  +2.54E-02
+FL_VTM  1                            
+        1     'From130to202'   TF  'TF131' 
+        
+                
+!
+FL_ID   'From202to204'  203
+FL_FT   'Vol202'    'Vol204'   1.3334E+00  1.3334E+00
+FL_GEO  +0.149352E+00  +0.7642E+00  +1.00   
+FL_USL  0.00  0.00  
+FL_VEL  0.00  0.00
+FL_JSW  0 NoBubbleRise  NoBubbleRise
+FL_SEG  1
+        1  +0.149352E+00  +0.7642E+00  +0.464981E+00
+
+!
+FL_ID   'From204to206' 205
+FL_FT   'Vol204'    'Vol206'   1.5284E+00  1.5284E+00
+FL_GEO  +0.149352E+00  +0.5525E+00  +1.00   
+FL_USL  0.00  0.00  
+FL_VEL  0.00  0.00
+FL_JSW  0 NoBubbleRise  NoBubbleRise
+FL_SEG  1
+        1  +0.149352E+00  +0.5525E+00  +0.464981E+00
+
+		
+FL_ID  'From206to208'  207
+FL_FT   'Vol206'    'Vol208'   1.9834E+00  1.9834E+00
+FL_GEO  +0.277368E+00  +0.7E+00  +1.00   
+FL_USL  0.00  0.00  
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubbleRise
+FL_SEG  1
+        1  +0.277368E+00  +0.7E+00  +0.522154E+00
+
+		
+FL_ID  'From208to214'  209
+FL_FT   'Vol208'    'Vol214'   1.5284E+00  1.5284E+00
+FL_GEO  +0.277368E+00  +0.5525E+00  +1.00   
+FL_USL  0.00  0.00  
+FL_VEL  0.00  0.00
+FL_JSW  0 NoBubbleRise  NoBubbleRise
+FL_SEG  1
+        1  +0.277368E+00  +0.5525E+00  +0.522154E+00
+        
+FL_ID  'From214to202'  210
+FL_FT   'Vol214'    'Vol202'   1.3334E+00  1.3334E+00
+FL_GEO  +0.277368E+00  +0.7642E+00  +1.00   
+FL_USL  0.00  0.00  
+FL_VEL  0.00  0.00
+FL_JSW  0 NoBubbleRise  NoBubbleRise
+FL_SEG  1
+        1  +0.277368E+00  +0.7642E+00  +0.522154E+00
+
+
+
+!FL_ID  'CONNECT water tank'  101                                              
+!FL_FT   'Vol202'    'Vol100'  0.0E+00  0.0E+00                           
+!FL_GEO  +0.277368E-06  +0.261077E-03  +1.00                              
+!FL_USL  0.00  0.00                                                       
+!FL_VEL  0.00  0.00                                                       
+!FL_JSW  2 NoBubbleRise  NoBubbleRise                                     
+!FL_SEG  1                                                                
+!        1  +0.277368E-06  +0.261077E-03  +0.522154E-03                   
+!FL_VLV  1                                                                
+!        1  valve1    'CONNECT water tank'   NoTRIP  'DRAIN WATER' 

@@ -1,0 +1,94 @@
+ 
+ MELGEN diagnostic output   AP600      7/03/14  12:39:32 
+ AP600                                                                 
+ This is an official build.
+ MELGEN 2.1.4803
+ Executing on: Intel(R) Core(TM) i3 CPU       M 370  @ 2.40GHz
+ Configuration information:
+ Configuration RL_LIC
+ Subversion revision: 4803
+ 
+ Build Processor: Intel(R) Xeon(TM) CPU 3.20GHz
+ 
+ Compiler: Intel(R) Visual Fortran Compiler Professional for applications runnin
+ g on IA-32, Version 11.1    Build 20101201
+ 
+ Compiler settings:
+ /fpp /nologo /O2 /Oy- /fpp /DWINDOWS /DWIN_32 /DSNAP /DARCH_INT  /DGET_CPU_INFO
+  /I..\compiled_modules /assume:nocc_omp /noaltparam /error_limit:25 /warn:error
+ s /nodebug /real_size:64 /Qauto /Qprec-div /Qprec-sqrt /assume:protect-parens /
+ check:none /libs:static /threads /iface:cvf /align:rec8byte /align:dcommons /al
+ ign:records /QaxSSE4_2,SSE4_1,SSSE3,SSE3,SSE2,SSE /traceback /fp:source /module
+ :..\compiled_modules /check:none
+ 
+ Linker settings:
+ /NODEFAULTLIB:LIBCMT /verbose:lib /LIBPATH:..\RL_LIC_Library /LIBPATH:C:\Progra
+ m Files\Microsoft SDKs\Windows\v7.0\Lib  /LIBPATH:C:\Program Files (x86)\Intel\
+ Compiler\11.1\070\lib\ia32 /LIBPATH:..\licensing\lib /LIBPATH:..\LibDependencie
+ s /LIBPATH:..\SNAPAdapter\lib
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during input processing EXEC package:
+No errors during input processing EXEC package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during input processing NCG package:
+NO Errors during input processing NCG package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during input processing CVH package:
+NO Errors during input processing CVH package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during input processing FL package:
+NO Errors during input processing FL package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during input processing MP package:
+NO errors during input processing MP package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during input processing HS package:
+WARNING: INITIAL TEMPERATURES WILL BE OVERWRITTEN
+ BECAUSE STEADY-STATE INITIALIZATION REQUESTED FOR STRUCTURE: Rightside
+WARNING: INITIAL TEMPERATURES WILL BE OVERWRITTEN
+ BECAUSE STEADY-STATE INITIALIZATION REQUESTED FOR STRUCTURE: Rightside
+WARNING: INITIAL TEMPERATURES WILL BE OVERWRITTEN
+ BECAUSE STEADY-STATE INITIALIZATION REQUESTED FOR STRUCTURE: Upperside
+WARNING: INITIAL TEMPERATURES WILL BE OVERWRITTEN
+ BECAUSE STEADY-STATE INITIALIZATION REQUESTED FOR STRUCTURE: Upperside
+WARNING: THE CRITICAL POOL FRACTIONS ON RECORD HS_LBP FOR   2 HEAT STRUCTURES ARE NOT EQUAL                                                                                                                                                                    
+WARNING: THE CRITICAL POOL FRACTIONS ON RECORD HS_RBP FOR   2 HEAT STRUCTURES ARE NOT EQUAL                                                                                                                                                                    
+NO Errors during input processing HS package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during input processing CF package:
+NO errors during input processing CF package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during input processing TF package:
+NO errors during input processing TF package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during input processing EDF package:
+NO Errors during input processing EDF package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during PASS2 input processing NCG package:
+NO Errors during PASS2 input processing NCG package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during PASS2 input processing of MP package:
+NO Errors during PASS2 input processing of MP package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during PASS2 input processing CVH package:
+NO Errors during PASS2 input processing CVH package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during PASS2 input processing FL package:
+NO Errors during PASS2 input processing FL package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during PASS2 input processing HS package:
+NO Errors during PASS2 input processing HS package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during PASS2 input processing CF package:
+NO Errors during PASS2 input processing CF package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during PASS3 input processing HS package:
+NO Errors during PASS3 input processing HS package
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Diagnostics during PASS3 input processing CF package:
+NO Errors during PASS3 input processing CF package
+ ***********************************************
+ ***********************************************
+ ****  NO ERRORS IN USER INPUT   ***************
+ ***********************************************
+ ***********************************************
