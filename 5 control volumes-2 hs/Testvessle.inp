@@ -14,8 +14,8 @@ CV_VAT  4  !Number  Elevation Volume
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  ONLYATM   Superheated   
 CV_PTD  Pvol  1.0E+5
-CV_AAD  TATM  333.80
-CV_NCG  2  PNCG  0.795E+5
+CV_AAD  TATM  342.40
+CV_NCG  2  PNCG  0.699E+5
         1  N2   0.8
         2  O2   0.2
 CV_VEL  0.00  0.00
@@ -31,8 +31,8 @@ CV_VAT  2  !Number  Elevation Volume
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  ONLYATM   Superheated   
 CV_PTD  Pvol  1.0E+5
-CV_AAD  TATM  333.80           
-CV_NCG  2  PNCG  0.795E+5      
+CV_AAD  TATM  342.40            
+CV_NCG  2  PNCG  0.699E+5       
         1  N2   0.8
         2  O2   0.2
 CV_VEL  0.00  0.00
@@ -47,8 +47,8 @@ CV_VAT  2  !Number  Elevation Volume
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  ONLYATM   Superheated   
 CV_PTD  Pvol  1.0E+5
-CV_AAD  TATM  333.80         
-CV_NCG  2  PNCG  0.795E+5    
+CV_AAD  TATM  342.40           
+CV_NCG  2  PNCG  0.699E+5      
         1  N2   0.8
         2  O2   0.2
 CV_VEL  0.00  0.00
@@ -64,8 +64,8 @@ CV_VAT  2  !Number  Elevation Volume
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  ONLYATM   Superheated   
 CV_PTD  Pvol  1.0E+5
-CV_AAD  TATM  333.80        
-CV_NCG  2  PNCG  0.795E+5   
+CV_AAD  TATM  342.40           
+CV_NCG  2  PNCG  0.699E+5      
         1  N2   0.8
         2  O2   0.2
 CV_VEL  0.00  0.00
@@ -80,8 +80,8 @@ CV_VAT  2  !Number  Elevation Volume
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  ONLYATM   Superheated   
 CV_PTD  Pvol  1.0E+5
-CV_AAD  TATM  333.80           
-CV_NCG  2  PNCG  0.795E+5      
+CV_AAD  TATM  342.40            
+CV_NCG  2  PNCG  0.699E+5       
         1  N2   0.8
         2  O2   0.2
 CV_VEL  0.00  0.00
