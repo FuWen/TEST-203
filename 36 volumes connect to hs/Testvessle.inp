@@ -4,54 +4,54 @@ AllowReplace
 CVH_INPUT
 
 !
-CV_ID  'Vol202'  202
-CV_TYP  'AP600'
-CV_VAT  4  !Number  Elevation Volume
-        1  0.0E+00           +0.0E+00
-        2  0.1397E+00        +0.059613E+00
-        3  0.1651E+00        +0.070451E+00
-        4  1.3334E+00        +0.568988E+00
-CV_THR  NonEquil  NoFog      Active
+CV_ID  'Vol202'  202                      
+CV_TYP  'AP600'                           
+CV_VAT  2  !Number  Elevation Volume      
+        1  0.0E+00           +0.0E+00     
+        2  0.7642E+00        +0.326099E+00
+CV_THR  NonEquil  NoFog      Active       
 CV_PAS  Separate  ONLYATM   Superheated   
-CV_PTD  Pvol  1.0E+5
-CV_AAD  TATM  342.40
-CV_NCG  2  PNCG  0.699E+5
-        1  N2   0.8
-        2  O2   0.2
-CV_VEL  0.00  0.00
+CV_PTD  Pvol  1.0E+5                      
+CV_AAD  TATM  342.40                      
+CV_NCG  2  PNCG  0.699E+5                 
+        1  N2   0.8                       
+        2  O2   0.2                       
+CV_VEL  0.00  0.00                        
+
+
 
 
 !==================
 
-CV_ID  'Vol204'  204
-CV_TYP  'AP600'
-CV_VAT  2  !Number  Elevation Volume
-        1  1.3334E+00        +0.0E+00
-        2  1.5284E+00        +0.08321E+00
-CV_THR  NonEquil  NoFog      Active
+CV_ID  'Vol204'  204                      
+CV_TYP  'AP600'                           
+CV_VAT  2  !Number  Elevation Volume      
+        1  0.7642E+00        +0.0E+00     
+        2  1.5284E+00        +0.114135E+00
+CV_THR  NonEquil  NoFog      Active       
 CV_PAS  Separate  ONLYATM   Superheated   
-CV_PTD  Pvol  1.0E+5
-CV_AAD  TATM  342.40           
-CV_NCG  2  PNCG  0.699E+5      
-        1  N2   0.8
-        2  O2   0.2
-CV_VEL  0.00  0.00
+CV_PTD  Pvol  1.0E+5                      
+CV_AAD  TATM  342.40                      
+CV_NCG  2  PNCG  0.699E+5                 
+        1  N2   0.8                       
+        2  O2   0.2                       
+CV_VEL  0.00  0.00                        
 
 !====================
 
-CV_ID  'Vol206'  206
-CV_TYP  'AP600'
-CV_VAT  2  !Number  Elevation Volume
-        1  1.5284E+00        +0.0E+00
-        2  2.4384E+00        +0.13591E+00
-CV_THR  NonEquil  NoFog      Active
+CV_ID  'Vol206'  206                      
+CV_TYP  'AP600'                           
+CV_VAT  2  !Number  Elevation Volume      
+        1  1.5284E+00        +0.0E+00     
+        2  2.4384E+00        +0.13591E+00 
+CV_THR  NonEquil  NoFog      Active       
 CV_PAS  Separate  ONLYATM   Superheated   
-CV_PTD  Pvol  1.0E+5
-CV_AAD  TATM  342.40         
-CV_NCG  2  PNCG  0.699E+5    
-        1  N2   0.8
-        2  O2   0.2
-CV_VEL  0.00  0.00
+CV_PTD  Pvol  1.0E+5                      
+CV_AAD  TATM  342.40                      
+CV_NCG  2  PNCG  0.699E+5                 
+        1  N2   0.8                       
+        2  O2   0.2                       
+CV_VEL  0.00  0.00                        
 
 
 !!==================
@@ -72,19 +72,19 @@ CV_VEL  0.00  0.00
 !
 !==================
 
-CV_ID  'Vol214'  214
-CV_TYP  'AP600'
-CV_VAT  2  !Number  Elevation Volume
-        1  1.3334E+00        +0.0E+00
-        2  1.5284E+00        +0.08321E+00
-CV_THR  NonEquil  NoFog      Active
+CV_ID  'Vol214'  214                      
+CV_TYP  'AP600'                           
+CV_VAT  2  !Number  Elevation Volume      
+        1  0.7642E+00        +0.0E+00     
+        2  1.5284E+00        +0.211965E+00
+CV_THR  NonEquil  NoFog      Active       
 CV_PAS  Separate  ONLYATM   Superheated   
-CV_PTD  Pvol  1.0E+5
-CV_AAD  TATM  342.40           
-CV_NCG  2  PNCG  0.699E+5      
-        1  N2   0.8
-        2  O2   0.2
-CV_VEL  0.00  0.00
+CV_PTD  Pvol  1.0E+5                      
+CV_AAD  TATM  342.40                      
+CV_NCG  2  PNCG  0.699E+5                 
+        1  N2   0.8                       
+        2  O2   0.2                       
+CV_VEL  0.00  0.00                        
 
 !====================
 
