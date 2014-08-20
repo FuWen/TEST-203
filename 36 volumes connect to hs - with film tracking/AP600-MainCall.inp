@@ -1,0 +1,90 @@
+! =============================
+! RCCS MELCOR Model
+! =============================
+
+! =================================================================================================
+!                                        Environmental Data
+! =================================================================================================
+MEG_DiagFile	'MELGEN.diag'
+MEL_DiagFile	'Dumps\MELCOR.diag'
+MEG_OutputFile	'Dumps\MELGEN-output.dump'
+MEL_OutputFile	'Dumps\MELCOR-output.dump'
+MEG_RestartFile	'Dumps\MELGEN.rst'
+MEL_RestartFile	'Dumps\MELCORControls.rst'			NCYCLE		0
+MessageFile		'Dumps\Messages.dump'
+StatusFile		'Dumps\MELCOR-status.dump'
+StopFile		'Dumps\MELCOR-stop.dump'
+WriteNewInp		'Dumps\NewInput.can'
+ExtDiagFile		'Dumps\MELCOR.diag.xtnd'
+PlotFile		'PTFs\Plot.ptf'
+
+
+
+
+! =================================================================================================
+!                                               MELGEN Input
+! =================================================================================================
+!/*
+Program MELGEN
+
+! =============================================================================
+!                                  EXEC Data
+! =============================================================================
+EXEC_INPUT 
+	EXEC_TITLE  'AP600' 
+	EXEC_JOBID  'AP600' 
+
+
+! ==============================================================================
+!                                   NCG Data
+! ==============================================================================
+NCG_INPUT
+	NCG_ID	O2	! Oxygen
+	NCG_ID	N2	! Nitrogen
+
+
+! ==============================================================================
+!                               File Inclusions
+! ==============================================================================
+	INCLUDE		'Container-TF.inp'		! Tabular functions
+  !INCLUDE		'Container-CF.inp'		! Control functions
+	INCLUDE		'Container-MP.inp'		! Material properties
+	!INCLUDE		'Container-EDF.inp'		! ASCII data dumps
+	INCLUDE		'Main-CVH.inp'			! Control Models
+	INCLUDE   'Container-HS.inp'  !HS Models
+
+End Program MELGEN Data
+!*/
+
+
+
+
+! ==================================================================================================
+!                                               MELCOR Input
+! ==================================================================================================
+!/*
+Program MELCOR
+
+! ==============================================================================
+!                               MEX (EXEC) Data
+! ==============================================================================
+EXEC_INPUT
+	EXEC_TITLE	'AP600'
+	EXEC_JOBID	'AP600'
+	EXEC_TEND	10.0E3	! End of calculation time
+	EXEC_TIME	3 !	Times		dt_Max	dt_Min		dt_WriteEdit	dt_WritePlot	dt_WriteRestart		dCPUt_WriteRestart
+				   1	 0.0E0	  1.0E6	  1.0E-6		100.0			10.0			10.0				10.0E9
+				   2	 5.0E3    1.0E6	  1.0E-6		100.0			10.0			10.0				10.0E9
+				   3	 10.0E3	  1.0E6	  1.0E-6		100.0			100.0			100.0				10.0E9
+	EXEC_CPULEFT	50.0E0 ! CPU time left at end of calculation [s]
+	EXEC_CPULIM		10.0E9 ! Maximum number of CPU seconds allowed for this execution
+
+
+! ==============================================================================
+!                               CVH MELCOR Data
+! ==============================================================================
+CVH_INPUT
+	CVH_TRACE   100  ! Calculational trace activation
+
+End Program MELCOR Data
+!*/

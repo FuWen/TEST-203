@@ -1,0 +1,226 @@
+HS_INPUT
+! =========================================================================== !
+!                        Heat Structure Definitions                           !
+! =========================================================================== !
+
+
+!==================  Vertical heat structure  ==================   
+!==================  Heat Structure 1106  ==================
+HS_ID   'Rightside06'  1106
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  2.28673E+00       1.00
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    301.12   ALUMINUM     
+HS_LB   CalcCoefHS                        'Vol06'    YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'             NO  
+HS_LBP  EXT         0.5             0.5
+HS_RBP  EXT         0.5             0.5
+HS_LBS  0.46228E-001     0.15167       0.15167
+HS_RBS  0.46228E-001     0.15167       0.15167
+HS_FT   ON
+HS_FTDRN 1
+         1   'Rightside16'   1.0   0.0  
+HS_FTLBF 0.0 
+HS_FTRBF 0.0 
+
+!==================  Heat Structure 1116  ==================
+HS_ID   'Rightside16'  1116
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  2.13507E+00        1.00
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    301.12   ALUMINUM   
+HS_LB   CalcCoefHS                        'Vol16'    YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'             NO  
+HS_LBP  EXT         0.5             0.5
+HS_RBP  EXT         0.5             0.5
+HS_LBS  0.46228E-001     0.15166       0.15166
+HS_RBS  0.46228E-001     0.15166       0.15166
+HS_FT   ON
+HS_FTDRN 1
+         1   'Rightside26'   1.0   0.0  
+HS_FTLBF 0.0 
+HS_FTRBF 0.0
+!==================  Heat Structure 1126  ==================
+HS_ID   'Rightside26'  1126
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  1.9834E+00        1.00
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    301.12   ALUMINUM   
+HS_LB   CalcCoefHS                        'Vol26'    YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'             NO  
+HS_LBP  EXT         0.5             0.5
+HS_RBP  EXT         0.5             0.5
+HS_LBS  0.46228E-001     0.15167       0.15167
+HS_RBS  0.46228E-001     0.15167       0.15167
+HS_FT   ON
+HS_FTDRN 1
+         1   'Rightside36'   1.0   0.0  
+HS_FTLBF 0.0 
+HS_FTRBF 0.0
+!==================  Heat Structure 1136  ==================
+HS_ID   'Rightside36'  1136
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  1.83173E+00        1.00
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    301.12   ALUMINUM    
+HS_LB   CalcCoefHS                        'Vol36'    YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'             NO  
+HS_LBP  EXT         0.5             0.5
+HS_RBP  EXT         0.5             0.5
+HS_LBS  0.46228E-001     0.15167       0.15167
+HS_RBS  0.46228E-001     0.15167       0.15167
+HS_FT   ON
+HS_FTDRN 1
+         1   'Rightside46'   1.0   0.0  
+HS_FTLBF 0.0 
+HS_FTRBF 0.0
+!==================  Heat Structure 1146  ==================
+HS_ID   'Rightside46'  1146
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  1.68007E+00       1.00
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    301.12   ALUMINUM   
+HS_LB   CalcCoefHS                        'Vol46'    YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'             NO  
+HS_LBP  EXT         0.5             0.5
+HS_RBP  EXT         0.5             0.5
+HS_LBS  0.46228E-001     0.15166       0.15166
+HS_RBS  0.46228E-001     0.15166       0.15166
+HS_FT   ON
+HS_FTDRN 1
+         1   'Rightside56'   1.0   0.0  
+HS_FTLBF 0.0 
+HS_FTRBF 0.0
+!==================  Heat Structure 1156  ==================
+HS_ID   'Rightside56'  1156
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  1.5284E+00       1.00
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    301.12   ALUMINUM   
+HS_LB   CalcCoefHS                        'Vol56'    YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'             NO  
+HS_LBP  EXT         0.5             0.5
+HS_RBP  EXT         0.5             0.5
+HS_LBS  0.46228E-001     0.15167       0.15167
+HS_RBS  0.46228E-001     0.15167       0.15167
+HS_FT   ON
+HS_FTDRN 0
+HS_FTLBF 0.0 
+HS_FTRBF 0.0
+
+
+!==================  Horizontal heat structure  ==================
+!==================  Heat Structure 1301  ==================
+HS_ID   'Upperside01'  1301
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  2.4384E+00       0.0
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    301.12   ALUMINUM   
+HS_LB   CalcCoefHS                        'Vol01'     YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'              NO  
+HS_LBP  EXT          0.5             0.5 
+HS_RBP  EXT          0.5             0.5 
+HS_LBS  0.46228E-001     0.1517       0.1517
+HS_RBS  0.46228E-001     0.1517       0.1517
+HS_FT   Off
+!==================  Heat Structure 1302  ==================
+HS_ID   'Upperside02'  1302
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  2.4384E+00       0.0
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    301.12   ALUMINUM     
+HS_LB   CalcCoefHS                        'Vol02'     YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'              NO  
+HS_LBP  EXT          0.5             0.5 
+HS_RBP  EXT          0.5             0.5 
+HS_LBS  0.46228E-001     0.1517       0.1517
+HS_RBS  0.46228E-001     0.1517       0.1517
+HS_FT   Off
+!==================  Heat Structure 1303  ==================
+HS_ID   'Upperside03'  1303
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  2.4384E+00       0.0
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    301.12   ALUMINUM   
+HS_LB   CalcCoefHS                        'Vol03'     YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'              NO  
+HS_LBP  EXT          0.5             0.5 
+HS_RBP  EXT          0.5             0.5 
+HS_LBS  0.46228E-001     0.1517       0.1517
+HS_RBS  0.46228E-001     0.1517       0.1517
+HS_FT   Off
+!==================  Heat Structure 1304  ==================
+HS_ID   'Upperside04'  1304
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  2.4384E+00       0.0
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    301.12   ALUMINUM    
+HS_LB   CalcCoefHS                        'Vol04'     YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'              NO  
+HS_LBP  EXT          0.5             0.5 
+HS_RBP  EXT          0.5             0.5 
+HS_LBS  0.46228E-001     0.1517       0.1517
+HS_RBS  0.46228E-001     0.1517       0.1517
+HS_FT   Off
+!==================  Heat Structure 1305  ==================
+HS_ID   'Upperside05'  1305
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  2.4384E+00       0.0
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    301.12   ALUMINUM   
+HS_LB   CalcCoefHS                        'Vol05'     YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'              NO  
+HS_LBP  EXT          0.5             0.5 
+HS_RBP  EXT          0.5             0.5 
+HS_LBS  0.46228E-001     0.1517       0.1517
+HS_RBS  0.46228E-001     0.1517       0.1517
+HS_FT   Off
+!==================  Heat Structure 1306  ==================
+HS_ID   'Upperside06'  1306
+HS_SRC  No
+HS_GD   Rectangular     YES
+HS_EOD  2.4384E+00       0.0
+HS_ND   3                                          
+        1   1   0.0         306.00   ALUMINUM      
+        2   2   1.524E-02   305.00   ALUMINUM      
+        3   3   3.81E-02    301.12   ALUMINUM   
+HS_LB   CalcCoefHS                        'Vol06'     YES
+HS_RB   TempTimeTF  'CONSTANTTEMPBOUNDRY'              NO  
+HS_LBP  EXT          0.5             0.5 
+HS_RBP  EXT          0.5             0.5 
+HS_LBS  0.46228E-001     0.1517       0.1517
+HS_RBS  0.46228E-001     0.1517       0.1517
+HS_FT   Off

@@ -1,0 +1,86 @@
+AllowReplace
+
+EDF_INPUT
+
+EDF_ID	'AP600-Pressur'	WRITE	'Outputs\Pressure.output'
+EDF_CHN	12 
+		  1   CVH-P('Vol202')  ! Pressure of Vol 202[Pa]
+		  2   CVH-P('Vol204')  ! Pressure of Vol 204[Pa] 
+		  3   CVH-P('Vol206')  ! Pressure of Vol 206[Pa]
+		  4   CVH-P('Vol208')  ! Pressure of Vol 208[Pa]
+		 5   CVH-PPART('Vol202',N2) !N2 Pressur of Vol 202[Pa]
+		 6   CVH-PPART('Vol202',O2) !O2 Pressur of Vol 202[Pa]
+		 7   CVH-PPART('Vol204',N2) !N2 Pressur of Vol 204[Pa]
+		 8   CVH-PPART('Vol204',O2) !O2 Pressur of Vol 204[Pa]
+		 9   CVH-PPART('Vol206',N2) !N2 Pressur of Vol 206[Pa]
+		 10  CVH-PPART('Vol206',O2) !O2 Pressur of Vol 206[Pa]
+		 11  CVH-PPART('Vol208',N2) !N2 Pressur of Vol 208[Pa]
+		 12  CVH-PPART('Vol208',O2) !O2 Pressur of Vol 208[Pa]
+EDF_FMT	'(13(ES24.16,2X))'
+EDF_DTW	2	!	Time	dTime/dWrite
+		1		0.0			  100.0
+		2		100.0E3		100.0
+
+		
+EDF_ID	'AP600-Waterlevel'	WRITE	'Outputs\Waterlevel.output'
+EDF_CHN	4 
+		  1   CVH-CLIQLEV('Vol202')  ! Waterlevel of Vol 202[m]
+		  2   CVH-CLIQLEV('Vol204')  ! Waterlevel of Vol 204[m] 
+		  3   CVH-CLIQLEV('Vol206')  ! Waterlevel of Vol 206[m]
+		  4   CVH-CLIQLEV('Vol208')  ! Waterlevel of Vol 208[m]
+EDF_FMT	'(5(ES24.16,2X))'
+EDF_DTW	2	!	Time	dTime/dWrite
+		1		0.0			  100.0
+		2		100.0E3		100.0
+		
+		
+EDF_ID	'AP600-temp'	WRITE	'Outputs\Temp.output'
+EDF_CHN	8 
+		  1   CVH-TLIQ('Vol202')  ! POOL TEMP of Vol 202[m]
+		  2   CVH-TLIQ('Vol204')  ! POOL TEMP of Vol 204[m] 
+		  3   CVH-TLIQ('Vol206')  ! POOL TEMP of Vol 206[m]
+		  4   CVH-TLIQ('Vol208')  ! POOL TEMP of Vol 208[m]
+		  5   CVH-TVAP('Vol202')  ! ATM TEMP of Vol 202[m]
+		  6   CVH-TVAP('Vol204')  ! ATM TEMP of Vol 204[m]
+		  7   CVH-TVAP('Vol206')  ! ATM TEMP of Vol 206[m]
+		  8   CVH-TVAP('Vol208')  ! ATM TEMP of Vol 208[m]
+EDF_FMT	'(9(ES24.16,2X))'
+EDF_DTW	2	!	Time	dTime/dWrite
+		1		0.0			  100.0
+		2		100.0E3		100.0		
+		
+		
+!EDF_ID	'INJECT-MASSFLOWRATE'	WRITE	'Outputs\INJECT.output'
+!EDF_CHN	1 
+!		  !1   FL-MFLOW('From130to202',ALL)  ! MASS FLOW RATE of INJECTION STEAM[kg/s]
+!		  1   FL-VOID('From130to202') ! VOID FRACTION OF INJECTION STEAM[-]
+!EDF_FMT	'(2(ES24.16,2X))'
+!EDF_DTW	2	!	Time	dTime/dWrite
+!		1		0.0			  100.0
+!		2		100.0E3		100.0	
+		
+
+EDF_ID	'HEATSTRUCTURE'	WRITE	'Outputs\HS.output'
+EDF_CHN	18 
+		  1   HS-QFLUX-ATMS('Rightside',LHS)  ! HEAT FLUX TO ATMOSPHERE AT LEFT BOUNDARY[W/m^2]
+		  2   HS-QFLUX-ATMS('Rightside',RHS)  ! HEAT FLUX TO ATMOSPHERE AT RIGHT BOUNDARY[W/m^2]
+		  3   HS-QFLUX-POOL('Rightside',LHS)  ! HEAT FLUX TO POOL AT LEFT BOUNDARY[W/m^2]
+		  4   HS-QFLUX-POOL('Rightside',RHS)  ! HEAT FLUX TO POOL AT RIGHT BOUNDARY[W/m^2]
+		  5   HS-HTC-ATMS('Rightside',LHS)    ! ATMOSPHERE HEAT TRANSFER COEFFICIENT AT LEFT BOUNDARY[W/m^2-K] 
+		  6   HS-HTC-ATMS('Rightside',RHS)    ! ATMOSPHERE HEAT TRANSFER COEFFICIENT AT RIGHT BOUNDARY[W/m^2-K] 
+		  7   HS-HTC-POOL('Rightside',LHS)    ! POOL HEAT TRANSFER COEFFICIENT AT LEFT BOUNDARY[W/m^2-K] 
+		  8   HS-HTC-POOL('Rightside',RHS)    ! POOL HEAT TRANSFER COEFFICIENT AT RIGHT BOUNDARY[W/m^2-K]
+		  9   HS-TEMP('Rightside',2)          ! TEMP at node 2 of 'Rightside'[K]
+     10   HS-QFLUX-ATMS('Upperside',LHS)  ! HEAT FLUX TO ATMOSPHERE AT LEFT BOUNDARY[W/m^2]
+		 11   HS-QFLUX-ATMS('Upperside',RHS)  ! HEAT FLUX TO ATMOSPHERE AT RIGHT BOUNDARY[W/m^2]
+		 12   HS-QFLUX-POOL('Upperside',LHS)  ! HEAT FLUX TO POOL AT LEFT BOUNDARY[W/m^2]
+		 13   HS-QFLUX-POOL('Upperside',RHS)  ! HEAT FLUX TO POOL AT RIGHT BOUNDARY[W/m^2]
+		 14   HS-HTC-ATMS('Upperside',LHS)    ! ATMOSPHERE HEAT TRANSFER COEFFICIENT AT LEFT BOUNDARY[W/m^2-K] 
+		 15   HS-HTC-ATMS('Upperside',RHS)    ! ATMOSPHERE HEAT TRANSFER COEFFICIENT AT RIGHT BOUNDARY[W/m^2-K] 
+		 16   HS-HTC-POOL('Upperside',LHS)    ! POOL HEAT TRANSFER COEFFICIENT AT LEFT BOUNDARY[W/m^2-K] 
+		 17   HS-HTC-POOL('Upperside',RHS)    ! POOL HEAT TRANSFER COEFFICIENT AT RIGHT BOUNDARY[W/m^2-K]
+		 18   HS-TEMP('Upperside',2)          ! TEMP at node 2 of 'Upperside'[K]		  
+EDF_FMT	'(19(ES24.16,2X))'
+EDF_DTW	2	!	Time	dTime/dWrite
+		1		0.0			  100.0
+		2		100.0E3		100.0	
